@@ -1,0 +1,47 @@
+.container {
+  font-family: 'Noto Serif', serif;
+}
+
+.dropdown-menu::before,
+.dropdown-menu::after {
+    border: none;
+    content: none;
+}
+/*#carouselExampleSlidesOnly {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 500px;
+}
+.filtered_cargo {
+  padding-left: 5px;
+  padding-top: 10px;
+}*/
+.contacts {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.navbar-nav {
+	text-align: center;
+}
+.navbar-custom {
+    background-color: #DDA0DD;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
